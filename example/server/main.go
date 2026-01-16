@@ -30,7 +30,7 @@ func main() {
 		Height:           height,
 		Handlers:         vnc.DefaultServerHandlers,
 		SecurityHandlers: []vnc.SecurityHandler{&vnc.ClientAuthNone{}},
-		Encodings:        []vnc.Encoding{&vnc.RawEncoding{}},
+		Encodings:        []vnc.Encoding{&vnc.TightPngEncoding{}, &vnc.RawEncoding{}},
 		PixelFormat:      vnc.PixelFormat32bit,
 		ClientMessageCh:  chServer,
 		ServerMessageCh:  chClient,
