@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	vnc "github.com/unistack-org/go-rfb"
+	vnc "github.com/ianb-mp/go-rfb"
 )
 
 type Auth struct {

@@ -1,3 +1,3 @@
-module github.com/unistack-org/go-rfb
+module github.com/ianb-mp/go-rfb
 
-go 1.13
+go 1.25.5

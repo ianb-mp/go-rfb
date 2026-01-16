@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	vnc "github.com/unistack-org/go-rfb"
+	vnc "github.com/ianb-mp/go-rfb"
 )
 
 func main() {
